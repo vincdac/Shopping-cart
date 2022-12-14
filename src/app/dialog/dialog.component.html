@@ -1,0 +1,38 @@
+<h1 mat-dailog-title>Add Product Form</h1>
+<div mat-dialog-content>
+  <form [formGroup]="productForm">
+    <p>
+      <mat-form-field appearance="outline">
+        <mat-label>Product Name</mat-label>
+        <input matInput formControlName="productName" placeholder="Product Name">
+      </mat-form-field>
+      <mat-form-field appearance="outline">
+        <mat-label>Category</mat-label>
+        <mat-select formControlName="category" placeholder="Category">
+          <mat-option value="Fruits">Fruits</mat-option>
+          <mat-option value="Clothes">Clothes</mat-option>
+          <mat-option value="Electronic">Electronic</mat-option>
+        </mat-select>
+      </mat-form-field>
+      <mat-form-field appearance="outline">
+        <mat-label>Choose a Date of Delivery</mat-label>
+        <input matInput [matDatepicker]="picker" formControlName="date">
+        <mat-hint>MM/DD/YYYY</mat-hint>
+        <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+        <mat-datepicker #picker></mat-datepicker>
+      </mat-form-field>
+      <mat-form-field appearance="outline">
+        <mat-label>Price</mat-label>
+        <input matInput type="number" formControlName="price" placeholder="Price">
+      </mat-form-field>
+      <mat-form-field appearance="outline">
+        <mat-label>Comments</mat-label>
+        <textarea matInput formControlName="comment" placeholder="Enter your Comments"></textarea>
+      </mat-form-field>
+    </p>
+    <div mat-dialog-actions>
+      <button mat-raised-button color="warn" mat-dialog-close>Close</button>
+      <button mat-raised-button color="primary" (click)="addProduct()">{{actionBtn}}</button>
+    </div>
+  </form>
+</div>

@@ -1,0 +1,70 @@
+{
+  "productList": [
+    {
+      "productName": "mango",
+      "category": "Fruits",
+      "date": "2022-09-22T18:30:00.000Z",
+      "price": 5000,
+      "comment": "kyhtx",
+      "id": 2
+    },
+    {
+      "productName": "banana",
+      "category": "Fruits",
+      "date": "2022-09-22T18:30:00.000Z",
+      "price": 500,
+      "comment": "axfhs vsggh",
+      "id": 4
+    },
+    {
+      "productName": "mobile",
+      "category": "Electronic",
+      "date": "2022-09-23T18:30:00.000Z",
+      "price": 20000,
+      "comment": "sdfsdf",
+      "id": 5
+    },
+    {
+      "productName": "tab",
+      "category": "Electronic",
+      "date": "2022-09-29T18:30:00.000Z",
+      "price": 20,
+      "comment": "uyty",
+      "id": 7
+    },
+    {
+      "productName": "banana",
+      "category": "Fruits",
+      "date": "2022-09-22T18:30:00.000Z",
+      "price": 1000,
+      "comment": "awrezxrt",
+      "id": 11
+    },
+    {
+      "productName": "car",
+      "category": "Electronic",
+      "date": "2022-10-25T18:30:00.000Z",
+      "price": 1523,
+      "comment": "ad",
+      "id": 12
+    },
+    {
+      "productName": "apple",
+      "category": "Fruits",
+      "date": "2022-12-08T18:30:00.000Z",
+      "price": 250,
+      "comment": "sfdvg",
+      "id": 13
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
